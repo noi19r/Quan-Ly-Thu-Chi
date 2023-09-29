@@ -1,0 +1,20 @@
+{
+  "name": "Quan-Ly-Thu-Chi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/noi19r/Quan-Ly-Thu-Chi.git",
+  "author": "noi19r <isow.dev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js --mode production"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "googleapis": "^126.0.1",
+    "node-telegram-bot-api": "^0.63.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
