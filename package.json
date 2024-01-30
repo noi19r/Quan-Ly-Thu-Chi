@@ -6,12 +6,16 @@
   "author": "noi19r <isow.dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon index.js",
+    "dev": "nodemon discord.js",
     "start": "node index.js --mode production"
   },
   "dependencies": {
+    "axios": "^1.6.0",
+    "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security",
     "googleapis": "^126.0.1",
+    "node-cron": "^3.0.2",
     "node-telegram-bot-api": "^0.63.0"
   },
   "devDependencies": {
